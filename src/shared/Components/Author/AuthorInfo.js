@@ -1,4 +1,6 @@
 import React from "react"
+import Author from "../../../services/Author"
+
 
 const AuthorInfo = (props) => {
     return (

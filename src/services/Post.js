@@ -1,8 +1,10 @@
 class Post {
     constructor(postData) {
-        this.id = postData.id
+        console.log(postData)
+        this.userID = postData.userId
+        this.titleID = postData.id
         this.title = postData.title
-        this.body = postData.body
+        this.description = postData.body
     }
 }
 

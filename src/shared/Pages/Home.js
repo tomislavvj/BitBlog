@@ -5,7 +5,7 @@ const Home = (props) => {
     return (
         <>
             <h1>POSTS</h1>
-            <div>
+            <div className="mainPost">
                 <PostItem />
             </div>
         </>

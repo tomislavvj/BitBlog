@@ -1,6 +1,6 @@
 class Post {
     constructor(postData) {
-        console.log(postData)
+        // console.log(postData)
         this.userID = postData.userId
         this.titleID = postData.id
         this.title = postData.title

@@ -15,5 +15,19 @@ const fetchAuthors = () => {
         }))
 
 }
-export { fetchAuthors }
 
+
+
+
+const fetchOneAuthor = (id) => {
+    const url = "https://jsonplaceholder.typicode.com/users/" + id
+
+    return fetch(url)
+        .then(res => res.json())
+        .then(apiAuthor => new Author(apiAuthor))
+
+
+
+}
+
+export { fetchAuthors, fetchOneAuthor }

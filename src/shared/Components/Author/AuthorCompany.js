@@ -5,8 +5,8 @@ const AuthorCompany = (props) => {
         <>
             <h1>Company</h1>
             <ul>
-                <li>name:Asdfadsfas</li>
-                <li>slogan: You shall not pass</li>
+                <li>name: {props.companyName}</li>
+                <li>slogan:{props.slogan}</li>
             </ul>
         </>
     )

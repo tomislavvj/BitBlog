@@ -1,6 +1,4 @@
 import React from "react"
-import Author from "../../../services/Author"
-
 
 const AuthorInfo = (props) => {
     return (
@@ -8,12 +6,12 @@ const AuthorInfo = (props) => {
             <ul class="collection">
                 <li class="collection-item avatar">
                     <img src="images/yuna.jpg" alt="" class="circle" />
-                    <span class="title">username:</span>
-                    <p>email:
+                    <span class="title">username:{props.username}</span>
+                    <p>email:{props.email}
                     </p>
                     <br />
                     <p>
-                        phone:
+                        phone:{props.phone}
                     </p>
                     <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
                 </li>
@@ -22,4 +20,4 @@ const AuthorInfo = (props) => {
     )
 }
 
-export default AuthorInfo
+export default AuthorInfo 

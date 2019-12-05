@@ -18,6 +18,9 @@ const fetchPost = () => {
 
 }
 
+
+
+
 const fetchSinglePost = (id) => {
     const url = "https://jsonplaceholder.typicode.com/posts/" + id
 

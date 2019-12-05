@@ -29,6 +29,7 @@ class App extends React.Component {
           <Route exact path="/SinglePost" component={SinglePost} />
           <Route exact path="/post/:id" component={SinglePost} />
           <Route exact path="/author/:id" component={SingleAuthor} />
+
         </Switch>
 
         <Footer />
